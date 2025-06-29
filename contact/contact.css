@@ -1,3 +1,7 @@
+.contact-hero-image {
+  background: url('../img/contact.jpg') bottom/cover fixed;
+}
+
 .contact-container {
   background: url('../img/content-bg.jpg') right/cover fixed;
 }

@@ -1,6 +1,33 @@
+/* Services */
+
+.services-hero-image {
+  background: url('../img/services-default.jpg') center/cover fixed;
+}
+
+/* Debt */
+
+.debt-hero-image {
+  background: url('../img/debt-collection.webp') bottom/cover fixed;
+}
+
+/* Credit */
+
+.credit-hero-image {
+  background: url('../img/credit1.jpg') center/cover fixed;
+}
+
 /* Legal */
 
-.legal-focus-grid {
+.legal-hero-image {
+  background: url('../img/legal.jpg') center/cover fixed;
+}
+
+.legal-services-grid .choose-card:hover {
+  background: url('../img/legal.jpg') center/cover fixed;
+  transition: 0.3s;
+}
+
+/* .legal-focus-grid {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10vh;
@@ -20,10 +47,14 @@
 
 .legal-focus-grid > .services-card:nth-child(4) {
   border: none;
-}
+} */
 
 .faqs-container {
   background: url('../img/content-bg.jpg') right/cover fixed;
+}
+
+.faqs-container .new-section {
+  padding-top: 0;
 }
 
 .faqs-grid .about-choose-dropdown {
@@ -84,4 +115,10 @@
   .faqs-grid .choose-dropdown-tab {
     width: 100%;
   }
+}
+
+/* Business correspondance */
+
+.business-hero-image {
+  background: url('../img/choose-bg.jpg') bottom/cover fixed;
 }

@@ -129,8 +129,8 @@ function setContent(prefix = './') {
           <h3>Contact</h3>
           <p>
             <span>Registered office:</span>
-            R city mall, LBS Marg, Amrut Nagar,
-            Ghatkopar West, Mumbai, Maharashtra 400086
+            Sakksham Finserv LLP, Dattani Plaza, Mehra Compound Rd, Safed
+            Pul, Saki Naka, Mumbai 400072
           </p>
           <p>
             <i class="fa fa-envelope"></i>
@@ -143,11 +143,11 @@ function setContent(prefix = './') {
             <a href="tel:+919999999999">99999 99999</a>
           </p>
           <div class="social-media">
-            <a href="https://wa.me/+919999999999"><i class="fa fa-whatsapp"></i></a>
-            <a href=""><i class="fa fa-linkedin"></i></a>
-            <a href=""><i class="fa fa-youtube-play"></i></a>
-            <a href=""><i class="fa fa-instagram"></i></a>
-            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href="https://wa.me/+919999999999" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://x.com/" target="_blank"><i class="fa fa-twitter"></i></a>
           </div>
         </div>
       </div>
@@ -163,19 +163,19 @@ function setContent(prefix = './') {
   socialMedia.innerHTML = `
     <div class="social-media-side-tab">
       <div class="social-media-icon" id="whatsapp">
-        <a href=""><i class="fa fa-whatsapp"></i></a>
+        <a href="https://wa.me/+919999999999" target="_blank"><i class="fa fa-whatsapp"></i></a>
       </div>
       <div class="social-media-icon" id="linkedin">
-        <a href=""><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
       </div>
       <div class="social-media-icon" id="youtube">
-        <a href=""><i class="fa fa-youtube-play"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a>
       </div>
       <div class="social-media-icon" id="instagram">
-        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
       <div class="social-media-icon" id="twitter">
-        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href="https://x.com/" target="_blank"><i class="fa fa-twitter"></i></a>
       </div>
     </div>`;
 

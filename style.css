@@ -519,14 +519,14 @@ hr {
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 20px 30px;
+  padding: 30px;
 }
 
 .choose-card h4 {
   font-size: 90px;
   color: var(--light);
   font-family: ContentBold;
-  margin: 0;
+  margin-bottom: 10px;
   opacity: 0.5;
   line-height: 1;
 }
@@ -534,7 +534,7 @@ hr {
 .choose-card h3 {
   font-size: 28px;
   font-family: Title;
-  margin: 15px 0;
+  margin-bottom: 20px;
   color: var(--primary);
 }
 

@@ -1,5 +1,9 @@
 /* About */
 
+.about-hero-image {
+  background: url('../img/about-bg.jpg') bottom/cover fixed;
+}
+
 .about-content h2,
 .about-content p {
   text-align: center;
@@ -256,6 +260,10 @@
 
 /* Achievements */
 
+.achievements-hero-image {
+  background: url('../img/win.jpg') bottom/cover fixed;
+}
+
 .achievements-page-container {
   background: url('../img/content-bg.jpg') center/cover fixed;
 }
@@ -306,7 +314,17 @@
   }
 }
 
+/* Trade associates */
+
+.associates-hero-image {
+  background: url('../img/choose-bg.jpg') bottom/cover fixed;
+}
+
 /* Team */
+
+.team-hero-image {
+  background: url('../img/about-bg.jpg') bottom/cover fixed;
+}
 
 .team-container {
   background: url('../img/content-bg.jpg') center/cover fixed;
@@ -372,4 +390,10 @@
     height: 220px;
     width: 220px;
   }
+}
+
+/* CSR */
+
+.csr-hero-image {
+  background: url('../img/together.jpg') bottom/cover fixed;
 }

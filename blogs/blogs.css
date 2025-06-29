@@ -1,3 +1,7 @@
+.blogs-hero-image {
+  background: url('../img/blogs.jpg') center/cover fixed;
+}
+
 .blogs-container {
   background: url('../img/content-bg.jpg') right/cover fixed;
 }
