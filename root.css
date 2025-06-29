@@ -1,0 +1,40 @@
+:root {
+  --primary: #124e66;
+  --secondary: #ffcb9a;
+  --white: #fff;
+  --black: #000;
+  --light: #ccc;
+  --lighter: #eee;
+  --dark: #444;
+  --shadow: #aaa;
+  --navbar-height: 80px;
+}
+
+@font-face {
+  font-family: Title;
+  src: url('./fonts/FreightDispProMedium-Regular.ttf');
+}
+
+@font-face {
+  font-family: TitleLight;
+  src: url('./fonts/FreightDispProLight-Regular.ttf');
+}
+
+@font-face {
+  font-family: Content;
+  src: url('./fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: ContentBold;
+  src: url('./fonts/Poppins-SemiBold.ttf');
+}
+
+@keyframes animatetop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

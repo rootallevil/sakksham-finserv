@@ -1,0 +1,131 @@
+.contact-container {
+  background: url('../img/content-bg.jpg') right/cover fixed;
+}
+
+.contact-card {
+  display: flex;
+  padding: 5%;
+  background-color: var(--white);
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 2px 2px 5px var(--shadow);
+}
+
+.contact-card hr {
+  margin: 0;
+  width: 0;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 5%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  color: var(--primary);
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 1px solid var(--shadow);
+  outline: none;
+  padding: 2px 0;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: none;
+  outline: none;
+  border: 1px solid var(--shadow);
+  padding: 2px 0;
+}
+
+.form-group textarea:focus {
+  border: 1px solid var(--primary);
+}
+
+.form-group input[type='submit'] {
+  border: none;
+  background: var(--primary);
+  color: var(--white);
+  height: 45px;
+  width: 160px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form-group input[type='submit']:hover {
+  background: var(--secondary);
+  color: var(--black);
+  transition: 0.2s;
+}
+
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.info-group {
+  margin-bottom: 30px;
+}
+
+.info-group h3 {
+  color: var(--primary);
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.info-group h3 i {
+  margin-right: 10px;
+}
+
+.info-group p {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+.info-group a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+@media (max-width: 960px) {
+  .contact-card {
+    flex-direction: column;
+    padding: 8%;
+    padding-bottom: 5%;
+  }
+
+  .contact-card hr {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .contact-form {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .contact-info {
+    padding: 0;
+    margin-top: 3vh;
+  }
+
+  .info-group {
+    margin-bottom: 25px;
+  }
+}
