@@ -154,7 +154,7 @@ function setContent(prefix = './') {
     </div>
     <div class="footer-copyright">
       <p>
-        Copyrights © 2022-2023 <span>Saksham Security Services</span>. All
+        Copyrights © 2025-2026 <span>Saksham Security Services</span>. All
         Rights Reserved.
       </p>
     </div>`;
