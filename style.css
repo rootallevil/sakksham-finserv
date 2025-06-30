@@ -816,7 +816,7 @@ p {
 
 .footer-column p {
   margin-bottom: 20px;
-  color: var(--light);
+  color: var(--lighter);
 }
 
 .footer-column p span {
@@ -846,12 +846,12 @@ p {
   margin-bottom: 10px;
   width: 80%;
   text-decoration: none;
-  color: var(--light);
+  color: var(--lighter);
   transition: 0.2s;
 }
 
 .footer-column a:hover {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .social-media {
