@@ -328,7 +328,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.7);
   padding: 4% 8%;
 }
 
@@ -512,7 +512,7 @@ p {
 
 .choose-card {
   width: 30%;
-  background: url('./img/card-bg.jpg') center/cover;
+  /* background: url('./img/card-bg.jpg') center/cover; */
   box-shadow: 2px 3px 6px var(--shadow);
   text-align: left;
   margin-bottom: 5vh;
@@ -738,6 +738,7 @@ p {
   align-items: center;
   width: 90%;
   margin-top: 20px;
+  position: relative;
 }
 
 .testimonial-detail p {
@@ -745,12 +746,21 @@ p {
   margin-top: 20px;
   width: 100%;
   color: var(--white);
+  z-index: 2;
 }
 
 .testimonial-detail h3 {
   font-size: 16px;
   margin-top: 25px;
   color: var(--secondary);
+}
+
+.testimonial-detail img {
+  position: absolute;
+  left: -20px;
+  top: -30px;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 /* Clients */
@@ -780,7 +790,7 @@ p {
 /* Footer */
 
 .footer {
-  background: var(--primary-light);
+  background: var(--primary);
   padding: 5%;
 }
 
@@ -806,17 +816,19 @@ p {
 
 .footer-column p {
   margin-bottom: 20px;
+  color: var(--light);
 }
 
 .footer-column p span {
   display: block;
   font-weight: bold;
-  color: var(--dark);
+  color: var(--white);
   margin-bottom: 5px;
 }
 
 .footer-column p i {
   margin-right: 5px;
+  color: var(--secondary);
 }
 
 .footer-description {
@@ -824,7 +836,7 @@ p {
 }
 
 .footer-column h3 {
-  color: var(--primary);
+  color: var(--secondary);
   font-size: 22px;
   font-family: Title;
   margin-bottom: 15px;
@@ -834,7 +846,7 @@ p {
   margin-bottom: 10px;
   width: 80%;
   text-decoration: none;
-  color: var(--dark);
+  color: var(--light);
   transition: 0.2s;
 }
 
@@ -850,10 +862,12 @@ p {
 
 .social-media a {
   font-size: 24px;
+  color: var(--secondary);
 }
 
 .footer-copyright {
   background: var(--primary);
+  border-top: 1px solid var(--secondary);
   padding: 20px;
 }
 
@@ -864,7 +878,7 @@ p {
 }
 
 .footer-copyright p span {
-  font-weight: bold;
+  color: var(--secondary);
 }
 
 /* Social media side tab */

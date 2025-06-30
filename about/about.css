@@ -111,8 +111,8 @@
   display: flex;
   justify-content: center;
   padding: 0 8%;
-  padding-bottom: 12vh;
-  background: rgba(255, 255, 255, 0.8);
+  padding-bottom: 8vh;
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .about-choose-content {
@@ -121,6 +121,7 @@
 }
 
 .about-choose-content h2 {
+  margin-top: 6vh;
   font-family: Title;
   font-size: 45px;
   color: var(--primary);
@@ -196,7 +197,7 @@
   }
 
   .about-content h2 {
-    margin-bottom: 6vh;
+    margin-bottom: 4vh;
     width: 80%;
   }
 
@@ -236,6 +237,7 @@
 
   .about-choose-content h2 {
     font-size: 36px;
+    margin-top: 0;
   }
 
   .about-choose-content p {

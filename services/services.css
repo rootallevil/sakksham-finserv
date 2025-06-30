@@ -10,6 +10,16 @@
   background: url('../img/debt-collection.webp') bottom/cover fixed;
 }
 
+#debt-image {
+  margin-top: 6vh;
+}
+
+@media (max-width: 985px) {
+  #debt-image {
+    margin-top: 0;
+  }
+}
+
 /* Credit */
 
 .credit-hero-image {

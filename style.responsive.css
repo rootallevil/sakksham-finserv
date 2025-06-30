@@ -116,7 +116,7 @@
     margin: 30px 0;
   }
 
-  .hero-overlay hr {
+  .hero-slogan hr {
     display: none;
   }
 
@@ -160,10 +160,6 @@
   .about-content p {
     width: 100%;
     text-align: justify;
-  }
-
-  .figures-section {
-    margin-bottom: 5vh;
   }
 
   .figures-card {
