@@ -116,6 +116,10 @@
     margin: 30px 0;
   }
 
+  .hero-overlay hr {
+    display: none;
+  }
+
   .hero-image-partial {
     height: 35vh;
   }
