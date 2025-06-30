@@ -645,7 +645,7 @@ p {
 }
 
 .swiper-wrapper {
-  margin: 5vh 0;
+  margin: 4vh 0;
 }
 
 .swiper-slide {
@@ -720,6 +720,7 @@ p {
 .testimonials-section > .swiper-wrapper > .swiper-slide {
   border: 1px solid var(--light);
   background: radial-gradient(#317088, var(--primary));
+  box-shadow: 1px 2px 4px var(--shadow);
   border-radius: 0;
   padding: 30px 20px;
   margin-bottom: 0;
