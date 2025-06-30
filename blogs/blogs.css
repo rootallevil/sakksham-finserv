@@ -3,7 +3,7 @@
 }
 
 .blogs-container {
-  background: url('../img/content-bg.jpg') right/cover fixed;
+  background: url('../img/content-bg.jpg') center/cover fixed;
 }
 
 .blogs-grid {
@@ -30,7 +30,7 @@
 }
 
 .blog-content {
-  padding: 25px;
+  padding: 20px;
 }
 
 .blog-content h3 {
@@ -46,7 +46,7 @@
   color: var(--dark);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 985px) {
   .blogs-grid {
     justify-content: space-between;
   }

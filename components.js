@@ -129,8 +129,8 @@ function setContent(prefix = './') {
           <h3>Contact</h3>
           <p>
             <span>Registered office:</span>
-            Sakksham Finserv LLP, Dattani Plaza, Mehra Compound Rd, Safed
-            Pul, Saki Naka, Mumbai 400072
+            Sakksham Finserv LLP, 604 & 605, A Wing, Dattani Plaza, Safed
+            Pul, Andheri Kurla Road, Saki Naka, Mumbai 400072
           </p>
           <p>
             <i class="fa fa-envelope"></i>

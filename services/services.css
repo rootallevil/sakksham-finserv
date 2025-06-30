@@ -50,7 +50,7 @@
 } */
 
 .faqs-container {
-  background: url('../img/content-bg.jpg') right/cover fixed;
+  background: url('../img/content-bg.jpg') center/cover fixed;
 }
 
 .faqs-container .new-section {
@@ -85,7 +85,7 @@
   border-top: 1px solid var(--light);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 985px) {
   .legal-focus-grid {
     margin-top: 6vh;
   }

@@ -14,7 +14,7 @@
 
 /* Tablet */
 
-@media (max-width: 960px) {
+@media (max-width: 985px) {
   nav,
   nav .navbar-logos {
     height: var(--navbar-height);
@@ -98,6 +98,10 @@
     left: 0;
   }
 
+  .carousel-container {
+    height: 70vh;
+  }
+
   .hero-overlay {
     padding: 5%;
   }
@@ -122,7 +126,7 @@
   }
 
   .new-section {
-    padding: 10%;
+    padding: 8% 5%;
   }
 
   .new-section h2 {
@@ -194,16 +198,17 @@
     width: 100%;
   }
 
-  .services-card a {
-    margin-top: 10px;
-  }
-
   .choose-grid {
     margin-top: 15px;
   }
 
   .choose-card {
     width: 100%;
+    margin-bottom: 2vh;
+  }
+
+  .choose-overlay {
+    padding: 20px;
   }
 
   .choose-card p {
@@ -225,7 +230,7 @@
 
   .join-card p {
     width: 100%;
-    margin-top: 20px;
+    margin: 25px 0;
   }
 
   .achievements-section h2 {
@@ -343,7 +348,7 @@
   }
 
   .new-section {
-    padding: 8vh 8%;
+    padding: 5vh 5%;
   }
 
   .new-section h2 {
@@ -368,6 +373,10 @@
     width: 100%;
   }
 
+  .join-card {
+    margin-bottom: 4vh;
+  }
+
   .join-card h3 {
     font-size: 24px;
   }
@@ -379,6 +388,10 @@
 
   .join-right h3 {
     text-align: left;
+  }
+
+  .join-right hr {
+    margin-left: 0;
   }
 
   .achievement-detail p {
