@@ -388,9 +388,13 @@ p {
   margin-left: 5vw;
 }
 
-.about-content h2,
-.about-content p {
+.about-content h2 {
   text-align: left;
+  width: 100%;
+}
+
+.about-content p {
+  text-align: justify;
   width: 100%;
 }
 
