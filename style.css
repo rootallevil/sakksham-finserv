@@ -244,9 +244,9 @@ p {
   height: 100%;
   background: linear-gradient(
     to bottom left,
-    rgba(255, 203, 154, 0.6),
-    rgba(18, 78, 102, 0.7),
-    rgba(18, 78, 102, 1)
+    rgba(255, 193, 7, 0.6),
+    rgba(11, 44, 82, 0.7),
+    rgb(6, 28, 54)
   );
   display: flex;
   flex-direction: column;
@@ -423,7 +423,8 @@ p {
 }
 
 .services-section {
-  background: rgba(12, 36, 46, 0.8);
+  /* background: rgba(8, 29, 55, 0.8); */
+  background-color: rgba(0, 0, 0, 0.8);
   color: var(--white);
 }
 
@@ -556,7 +557,7 @@ p {
 }
 
 .choose-overlay:hover {
-  background: rgba(12, 36, 46, 0.8);
+  background: rgba(8, 29, 55, 0.8);
 }
 
 .choose-card:hover h4,
@@ -630,7 +631,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(12, 36, 46, 0.8);
+  background: rgba(8, 29, 55, 0.8);
 }
 
 .achievements-section h2 {
@@ -852,6 +853,11 @@ p {
 
 .footer-column a:hover {
   color: var(--secondary);
+}
+
+.footer-column a span {
+  color: var(--secondary);
+  margin-right: 6px;
 }
 
 .social-media {

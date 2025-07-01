@@ -112,18 +112,18 @@ function setContent(prefix = './') {
         </div>
         <div class="footer-column">
           <h3>About</h3>
-          <a href="${prefix}about">About Sakksham Finserv LLP</a>
-          <a href="${prefix}about/achievements">Achievements</a>
-          <a href="${prefix}about/associates">Trade Associates</a>
-          <a href="${prefix}about/team">Meet Our Team</a>
-          <a href="${prefix}about/csr">CSR</a>
+          <a href="${prefix}about"><span>></span>About Sakksham Finserv LLP</a>
+          <a href="${prefix}about/achievements"><span>></span>Achievements</a>
+          <a href="${prefix}about/associates"><span>></span>Trade Associates</a>
+          <a href="${prefix}about/team"><span>></span>Meet Our Team</a>
+          <a href="${prefix}about/csr"><span>></span>CSR</a>
         </div>
         <div class="footer-column">
           <h3>Services</h3>
-          <a href="${prefix}services/debt">Debt Recovery</a>
-          <a href="${prefix}services/credit">Credit Collection</a>
-          <a href="${prefix}services/legal">Legal Services</a>
-          <a href="${prefix}services/business">Business Correspondance</a>
+          <a href="${prefix}services/debt"><span>></span>Debt Recovery</a>
+          <a href="${prefix}services/credit"><span>></span>Credit Collection</a>
+          <a href="${prefix}services/legal"><span>></span>Legal Services</a>
+          <a href="${prefix}services/business"><span>></span>Business Correspondance</a>
         </div>
         <div class="footer-column">
           <h3>Contact</h3>
