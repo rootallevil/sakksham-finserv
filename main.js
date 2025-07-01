@@ -152,6 +152,17 @@ function setSwiper() {
   });
 }
 
+// Scroll reveal
+
+ScrollReveal({ reset: true }).reveal(
+  '.new-section *:not(.swiper-wrapper):not(.swiper-wrapper *)',
+  {
+    duration: 400,
+    origin: 'bottom',
+    scale: 0.5,
+  }
+);
+
 // Accordion
 
 function setAccordion() {

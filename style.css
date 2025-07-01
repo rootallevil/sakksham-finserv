@@ -281,6 +281,10 @@ p {
   margin-left: 10px;
 }
 
+.hero-overlay p i {
+  font-size: 16px;
+}
+
 .hero-overlay button {
   border: none;
   background: var(--white);

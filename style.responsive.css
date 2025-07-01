@@ -98,10 +98,6 @@
     left: 0;
   }
 
-  .carousel-container {
-    height: 70vh;
-  }
-
   .hero-overlay {
     padding: 5%;
   }
@@ -118,6 +114,10 @@
 
   .hero-slogan hr {
     display: none;
+  }
+
+  .hero-slogan p i {
+    font-size: 14px;
   }
 
   .hero-image-partial {
