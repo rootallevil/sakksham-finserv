@@ -837,6 +837,7 @@ p {
 
 .footer-column p i {
   margin-right: 5px;
+  font-size: 16px;
   color: var(--secondary);
 }
 
@@ -875,8 +876,11 @@ p {
 }
 
 .social-media a {
-  font-size: 24px;
   color: var(--secondary);
+}
+
+.social-media a i {
+  font-size: 24px;
 }
 
 .footer-copyright {

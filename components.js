@@ -15,7 +15,7 @@ function setContent(prefix = './') {
         <li>
           <div class="dropdown">
             <a href="${prefix}about">
-              About <i class="fa fa-angle-down"></i>
+              About <i class="fa-solid fa-angle-down"></i>
             </a>
             <div class="dropdown-content">
               <a href="${prefix}about">About Sakksham Finserv LLP</a>
@@ -29,7 +29,7 @@ function setContent(prefix = './') {
         <li>
           <div class="dropdown">
             <a href="${prefix}services">
-              Services <i class="fa fa-angle-down"></i>
+              Services <i class="fa-solid fa-angle-down"></i>
             </a>
             <div class="dropdown-content">
               <a href="${prefix}services/debt">Debt Recovery</a>
@@ -50,7 +50,7 @@ function setContent(prefix = './') {
         </li>
       </ul>
       <div class="navbar-open">
-        <i class="fa fa-bars"></i>
+        <i class="fa-solid fa-bars"></i>
       </div>
     </div>
 
@@ -61,7 +61,7 @@ function setContent(prefix = './') {
         </li>
         <li>
           <a href="${prefix}about">
-            About <i class="fa fa-angle-down"></i>
+            About <i class="fa-solid fa-angle-down"></i>
           </a>
           <div class="navbar-sub-list">
             <a href="${prefix}about">About Sakksham Finserv LLP</a>
@@ -73,7 +73,7 @@ function setContent(prefix = './') {
         </li>
         <li>
           <a href="${prefix}services">
-            Services <i class="fa fa-angle-down"></i>
+            Services <i class="fa-solid fa-angle-down"></i>
           </a>
           <div class="navbar-sub-list">
             <a href="${prefix}services/debt">Debt Recovery</a>
@@ -112,7 +112,7 @@ function setContent(prefix = './') {
         </div>
         <div class="footer-column">
           <h3>About</h3>
-          <a href="${prefix}about"><span>></span>About Sakksham Finserv LLP</a>
+          <a href="${prefix}about"><span>></span>About Us</a>
           <a href="${prefix}about/achievements"><span>></span>Achievements</a>
           <a href="${prefix}about/associates"><span>></span>Trade Associates</a>
           <a href="${prefix}about/team"><span>></span>Meet Our Team</a>
@@ -133,21 +133,21 @@ function setContent(prefix = './') {
             Pul, Andheri Kurla Road, Saki Naka, Mumbai 400072
           </p>
           <p>
-            <i class="fa fa-envelope"></i>
+            <i class="fa-solid fa-envelope"></i>
             <a href="mailto:xyz@sakkshamfinserv.com">
               xyz@sakkshamfinserv.com
             </a>
           </p>
           <p>
-            <i class="fa fa-phone"></i>
+            <i class="fa-solid fa-phone"></i>
             <a href="tel:+919999999999">99999 99999</a>
           </p>
           <div class="social-media">
-            <a href="https://wa.me/+919999999999" target="_blank"><i class="fa fa-whatsapp"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a href="https://x.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://wa.me/+919999999999" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/SakkshamFinserv" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
           </div>
         </div>
       </div>
@@ -163,19 +163,19 @@ function setContent(prefix = './') {
   socialMedia.innerHTML = `
     <div class="social-media-side-tab">
       <div class="social-media-icon" id="whatsapp">
-        <a href="https://wa.me/+919999999999" target="_blank"><i class="fa fa-whatsapp"></i></a>
+        <a href="https://wa.me/+919999999999" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
       <div class="social-media-icon" id="linkedin">
-        <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
       </div>
       <div class="social-media-icon" id="youtube">
-        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
       </div>
       <div class="social-media-icon" id="instagram">
-        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
       </div>
       <div class="social-media-icon" id="twitter">
-        <a href="https://x.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://x.com/SakkshamFinserv" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
       </div>
     </div>`;
 
