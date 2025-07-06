@@ -150,6 +150,10 @@ p {
   color: var(--primary);
 }
 
+.navbar-open i {
+  font-size: 28px;
+}
+
 .navbar-responsive-content {
   display: none;
 }

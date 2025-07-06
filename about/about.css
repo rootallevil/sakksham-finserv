@@ -482,6 +482,36 @@
 
 /* CSR */
 
+.csr-container {
+  background: url('../img/content-bg.jpg') center/cover fixed;
+}
+
 .csr-hero-image {
   background: url('../img/together.jpg') bottom/cover fixed;
+}
+
+.csr-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.csr-card {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  box-shadow: 2px 2px 5px var(--shadow);
+}
+
+.csr-card img {
+  width: 28vw;
+  height: 20vw;
+  object-fit: cover;
+}
+
+@media (max-width: 985px) {
+  .csr-card img {
+    width: 90vw;
+    height: 50vw;
+  }
 }

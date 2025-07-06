@@ -144,9 +144,9 @@ function setContent(prefix = './') {
           </p>
           <div class="social-media">
             <a href="https://wa.me/+919999999999" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="http://www.linkedin.com/in/sakksham-finserv-521581372" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/sakshamfinserv?igsh=b3F3bW9uamJseGQ0" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://x.com/SakkshamFinserv" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
           </div>
         </div>
@@ -166,13 +166,13 @@ function setContent(prefix = './') {
         <a href="https://wa.me/+919999999999" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
       <div class="social-media-icon" id="linkedin">
-        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="http://www.linkedin.com/in/sakksham-finserv-521581372" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
       </div>
       <div class="social-media-icon" id="youtube">
         <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
       </div>
       <div class="social-media-icon" id="instagram">
-        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/sakshamfinserv?igsh=b3F3bW9uamJseGQ0" target="_blank"><i class="fa-brands fa-instagram"></i></a>
       </div>
       <div class="social-media-icon" id="twitter">
         <a href="https://x.com/SakkshamFinserv" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
